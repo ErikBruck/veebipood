@@ -3,64 +3,81 @@ import './App.css';
 
 function App() {
   const [tooted, setTooted] = useState([]);
-  const idRef = useRef();
   const nameRef = useRef();
-  const priceRef = useRef();
-  const isActiveRef = useRef();
-
+  const ratingRef = useRef();
+  const yearRef = useRef();
 
   useEffect(() => {
     fetch("https://localhost:4444/tooted")
       .then(res => res.json())
-      .then(json => setTooted(json));
+      .then(json => {
+        if (Array.isArray(json)) {
+          setTooted(json);
+        } else {
+          console.error('Expected an array but got:', json);
+        }
+      })
+      .catch(error => console.error('Fetch error:', error));
   }, []);
 
   function kustuta(index) {
-    fetch("https://localhost:4444/tooted/kustuta/" + index, {"method": "DELETE"})
+    fetch(`https://localhost:4444/tooted/kustuta/${index}`, {
+      method: "DELETE"
+    })
       .then(res => res.json())
-      .then(json => setTooted(json));
+      .then(json => {
+        if (Array.isArray(json)) {
+          setTooted(json);
+        } else {
+          console.error('Expected an array but got:', json);
+        }
+      })
+      .catch(error => console.error('Delete error:', error));
   }
 
-  ////////////////////////
   function lisa() {
     const uusToode = {
-      "id": Number(idRef.current.value),
-      "name": nameRef.current.value,
-      "price": Number(priceRef.current.value),
-      "isActive": isActiveRef.current.checked
-    }
-    fetch("https://localhost:4444/tooted/lisa", {"method": "POST", "body": JSON.stringify(uusToode)})
+      name: nameRef.current.value,
+      rating: Number(ratingRef.current.value),
+      year: Number(yearRef.current.value)
+    };
+    
+    fetch("https://localhost:4444/tooted/lisa", {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(uusToode)
+    })
       .then(res => res.json())
-      .then(json => setTooted(json));
-  }
-  ////////////////////////
-
-  function dollariteks() {
-    const kurss = 1.1;
-    fetch("https://localhost:4444/tooted/hind-dollaritesse/" + kurss, {"method": "PATCH"})
-      .then(res => res.json())
-      .then(json => setTooted(json));
+      .then(json => {
+        if (Array.isArray(json)) {
+          setTooted(json);
+        } else {
+          console.error('Expected an array but got:', json);
+        }
+      })
+      .catch(error => console.error('Add error:', error));
   }
 
   return (
     <div className="App">
-      <label>ID</label> <br />
-      <input ref={idRef} type="number" /> <br />
-      <label>Nimi</label> <br />
+      <label>Filmi nimi</label> <br />
       <input ref={nameRef} type="text" /> <br />
-      <label>Hind</label> <br />
-      <input ref={priceRef} type="number" /> <br />
-      <label>Aktiivne</label> <br />
-      <input ref={isActiveRef} type="checkbox" /> <br />
-      <button onClick={() => lisa()}>Lisa</button>
+      <label>Rating</label> <br />
+      <input ref={ratingRef} type="number" /> <br />
+      <label>Aasta</label> <br />
+      <input ref={yearRef} type="number" /> <br />
+      <button onClick={lisa}>Lisa</button>
       {tooted.map((toode, index) => 
-        <div>
+        <div key={toode.id}>
           <div>{toode.id}</div>
           <div>{toode.name}</div>
-          <div>{toode.price}</div>
+          <div>{toode.rating}</div>
+          <div>{toode.year}</div>
           <button onClick={() => kustuta(index)}>x</button>
-        </div>)}
-      <button onClick={() => dollariteks()}>Muuda dollariteks</button>
+        </div>
+      )}
     </div>
   );
 }

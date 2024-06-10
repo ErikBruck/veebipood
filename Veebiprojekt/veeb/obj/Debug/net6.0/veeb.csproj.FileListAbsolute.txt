@@ -30,3 +30,35 @@ C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\refint\veeb.dll
 C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.pdb
 C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.genruntimeconfig.cache
 C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\ref\veeb.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\appsettings.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\veeb.exe
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\veeb.deps.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\veeb.runtimeconfig.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\veeb.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\veeb.pdb
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.csproj.AssemblyReference.cache
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.AssemblyInfoInputs.cache
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.AssemblyInfo.cs
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.csproj.CoreCompileInputs.cache
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets\msbuild.veeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets\msbuild.build.veeb.props
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.veeb.props
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.veeb.props
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\scopedcss\bundle\veeb.styles.css
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.csproj.CopyComplete
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\refint\veeb.dll
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.pdb
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\veeb.genruntimeconfig.cache
+C:\Users\Student Admin\Documents\GitHub\veebipood\Veebiprojekt\veeb\obj\Debug\net6.0\ref\veeb.dll

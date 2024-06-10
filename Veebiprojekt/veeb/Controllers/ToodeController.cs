@@ -10,11 +10,7 @@ namespace veeb.Controllers
     {
         private static List<Toode> _tooted = new()
         {
-            new Toode(1, "Koola", 1.5, true),
-            new Toode(2, "Fanta", 1.0, false),
-            new Toode(3, "Sprite", 1.7, true),
-            new Toode(4, "Vichy", 2.0, true),
-            new Toode(5, "Vitamin well", 2.5, true)
+            new Toode(1, "Shutter Island", 8.2, 2010)
         };
 
         // GET https://localhost:4444/tooted
@@ -44,15 +40,5 @@ namespace veeb.Controllers
             return Ok(_tooted);
         }
 
-        // PATCH https://localhost:4444/tooted/hind-dollaritesse/{kurss}
-        [HttpPatch("hind-dollaritesse/{kurss}")]
-        public ActionResult<List<Toode>> UpdatePrices(double kurss)
-        {
-            for (int i = 0; i < _tooted.Count; i++)
-            {
-                _tooted[i].Price *= kurss;
-            }
-            return Ok(_tooted);
-        }
     }
 }
