@@ -1,0 +1,7 @@
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.csproj.AssemblyReference.cache
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.AssemblyInfoInputs.cache
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.AssemblyInfo.cs
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.csproj.CoreCompileInputs.cache
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Erik\Desktop\Veebiprojekt\veeb\obj\Debug\net6.0\veebirakendus.MvcApplicationPartsAssemblyInfo.cache
